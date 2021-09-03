@@ -19,7 +19,9 @@ int main(int argc, char *argv[]){
   srand((unsigned) time(NULL));
   
   //start up ncurses
-  initscr(); 
+  initscr();
+  //invisible cursor
+  curs_set(0);
   
   //find bounds of the terminal
   int maxY, maxX; 
