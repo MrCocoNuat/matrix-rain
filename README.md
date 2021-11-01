@@ -8,4 +8,4 @@ When compiling make sure to link ncurses:
 - [whatever compiler] *.c \-lncurses
 
 
-You must have ncurses installed, find it ![here](https://invisible-island.net/ncurses/)
+You must have ncurses installed, find it [here](https://invisible-island.net/ncurses/)
